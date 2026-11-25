@@ -1,0 +1,44 @@
+# ------------------------------------------------------------
+# CurveUp data - confidential, never commit
+# ------------------------------------------------------------
+*.jsonl
+*.json
+*.parquet
+*.orc
+*.tsv
+*.csv
+data/
+replay/
+CurveUp_Anonymised_Conversations*/
+hbase_tsv/
+
+# Spark / Hive / HDFS output folders
+_SUCCESS
+*.crc
+_checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+out/
+
+# Large media (link the demo video in demo/README instead)
+*.mp4
+*.mov
+*.zip
+
+# Logs - keep the timing/result logs in results/, ignore the rest
+*.log
+!results/*.log
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
